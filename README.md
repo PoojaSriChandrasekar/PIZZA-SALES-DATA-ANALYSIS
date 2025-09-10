@@ -50,7 +50,7 @@ To analyze pizza sales data and generate key performance indicators (KPIs), unco
   Measures overall sales performance and tracks revenue growth over time.
 
   
-  !<img width="229" height="105" alt="Total Revenue" src="https://github.com/user-attachments/assets/fc1593c8-4952-4213-a26d-c4ed686e0685" />
+ <img width="229" height="105" alt="Total Revenue" src="https://github.com/user-attachments/assets/fc1593c8-4952-4213-a26d-c4ed686e0685" />
 
 
 ---
@@ -64,7 +64,7 @@ To analyze pizza sales data and generate key performance indicators (KPIs), unco
   Indicates customer spending behavior. A higher AOV suggests customers are ordering more or selecting higher-priced items.
 
   
-  !<img width="244" height="106" alt="Avg Order Value" src="https://github.com/user-attachments/assets/bf20f303-0070-42f9-89dc-6d9bea1735ad" />
+  <img width="244" height="106" alt="Avg Order Value" src="https://github.com/user-attachments/assets/bf20f303-0070-42f9-89dc-6d9bea1735ad" />
 
 
 
@@ -79,7 +79,7 @@ To analyze pizza sales data and generate key performance indicators (KPIs), unco
   Helps in understanding overall sales volume and informs inventory and supply planning.
 
   
-!<img width="249" height="108" alt="Total Pizza Sold" src="https://github.com/user-attachments/assets/375fd1d5-a796-420f-9c5c-e7d4200202bd" />
+<img width="249" height="108" alt="Total Pizza Sold" src="https://github.com/user-attachments/assets/375fd1d5-a796-420f-9c5c-e7d4200202bd" />
 
 ---
 
@@ -92,7 +92,7 @@ To analyze pizza sales data and generate key performance indicators (KPIs), unco
   Tracks customer activity and demand trends, useful for marketing and operational decisions.
 
   
-!<img width="252" height="102" alt="Total Order" src="https://github.com/user-attachments/assets/40ade081-8e31-4f6a-a7f2-d8a85eb318e4" />
+<img width="252" height="102" alt="Total Order" src="https://github.com/user-attachments/assets/40ade081-8e31-4f6a-a7f2-d8a85eb318e4" />
 
 ---
 
@@ -105,7 +105,7 @@ To analyze pizza sales data and generate key performance indicators (KPIs), unco
   Helps understand customer ordering patterns and whether they tend to order multiple pizzas per order, influencing promotional strategies.
 
   
-!<img width="260" height="113" alt="Avg Pizza per order" src="https://github.com/user-attachments/assets/d05a6d07-fe92-44e1-91d5-117cac68bbc8" />
+<img width="260" height="113" alt="Avg Pizza per order" src="https://github.com/user-attachments/assets/d05a6d07-fe92-44e1-91d5-117cac68bbc8" />
 
 ---
 
