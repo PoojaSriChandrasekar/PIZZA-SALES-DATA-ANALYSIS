@@ -17,16 +17,16 @@ To analyze pizza sales data and generate key performance indicators (KPIs), unco
   Analyzed order patterns by day of the week and hour of the day to uncover peak ordering times and customer behavior insights.
 
   Day of the week Trend
-  !<img width="1491" height="610" alt="Daily trends" src="https://github.com/user-attachments/assets/1b89ae5b-7d64-4a7b-acb7-2b430aa10a36" />
+  !<img width="100" height="50" alt="Daily trends" src="https://github.com/user-attachments/assets/1b89ae5b-7d64-4a7b-acb7-2b430aa10a36" />
 
   Hours of the day Trend
-  !<img width="1743" height="993" alt="Hours trends" src="https://github.com/user-attachments/assets/f2a19b29-7f15-4e7f-bdb9-75a00a3cab88" />
+  !<img width="100" height="50" alt="Hours trends" src="https://github.com/user-attachments/assets/f2a19b29-7f15-4e7f-bdb9-75a00a3cab88" />
 
 - **Sales Breakdown:**  
   Computed percentage of sales by pizza category and size, providing a clear view of product performance in terms of revenue contribution.
 
 Percentage of sales by pizza category
-!<img width="50" height="25" alt="% by sales in pizza cat" src="https://github.com/user-attachments/assets/b2819a77-7b93-47d3-8df7-a652b831759b" />
+!<img width="100" height="50" alt="% by sales in pizza cat" src="https://github.com/user-attachments/assets/b2819a77-7b93-47d3-8df7-a652b831759b" />
 
 Percentage of sales by pizza size
 !<img width="1071" height="808" alt="% of scales ib pizza size" src="https://github.com/user-attachments/assets/7261702e-f0d8-4c8b-b1f7-79fb9a1cb2ee" />
