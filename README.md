@@ -1,5 +1,4 @@
 # 🍕 Pizza Sales Data Analysis
-To analyze pizza sales data and generate key performance indicators (KPIs), uncover sales trends by time and category, and identify top and bottom performing products for informed business decisions.
 
 ## 📚 Project Overview  
 This project involves performing comprehensive data analysis on pizza sales using SQL and Excel to generate actionable business insights. The goal was to analyze sales trends, customer ordering patterns, product performance, and key metrics to help the business optimize revenue and inventory management.
@@ -13,17 +12,32 @@ To analyze pizza sales data and generate key performance indicators (KPIs), unco
 
 - **KPI Analysis:**  
   Calculated critical business metrics such as Total Revenue, Average Order Value, Total Pizzas Sold, Total Orders, and Average Pizzas Per Order using SQL.
-  ! <img width="1491" height="610" alt="Daily trends" src="https://github.com/user-attachments/assets/3b2fd97e-2f3c-4ec0-93d7-63563dd93a21" />
-
 
 - **Trend Analysis:**  
   Analyzed order patterns by day of the week and hour of the day to uncover peak ordering times and customer behavior insights.
 
+  Day of the week Trend
+  !<img width="1491" height="610" alt="Daily trends" src="https://github.com/user-attachments/assets/1b89ae5b-7d64-4a7b-acb7-2b430aa10a36" />
+
+  Hours of the day Trend
+  !<img width="1743" height="993" alt="Hours trends" src="https://github.com/user-attachments/assets/f2a19b29-7f15-4e7f-bdb9-75a00a3cab88" />
+
 - **Sales Breakdown:**  
   Computed percentage of sales by pizza category and size, providing a clear view of product performance in terms of revenue contribution.
 
+Percentage of sales by pizza category
+!<img width="965" height="823" alt="% by sales in pizza cat" src="https://github.com/user-attachments/assets/b2819a77-7b93-47d3-8df7-a652b831759b" />
+
+Percentage of sales by pizza size
+!<img width="1071" height="808" alt="% of scales ib pizza size" src="https://github.com/user-attachments/assets/7261702e-f0d8-4c8b-b1f7-79fb9a1cb2ee" />
+
+
 - **Product Performance:**  
   Identified top 5 and bottom 5 best-selling pizzas based on quantity sold to help guide inventory and marketing strategies.
+Top 5
+!<img width="1446" height="569" alt="Top 5" src="https://github.com/user-attachments/assets/6fc0ef5c-722a-4fad-990c-885a9b6b8c7d" />
+Bottom 5
+!<img width="1653" height="549" alt="Bottom 5" src="https://github.com/user-attachments/assets/583c7a91-8ff3-4a17-9f30-4c2dbab45117" />
 
 ---
 
@@ -43,15 +57,80 @@ To analyze pizza sales data and generate key performance indicators (KPIs), unco
 
 ---
 
+## 📊 KPI Explanation
+
+### ✅ 1. Total Revenue
+- **Definition:**  
+  The total amount of money generated from all pizza orders.
+- **Formula (SQL):**  
+  `SUM(total_price)`
+- **Business Impact:**  
+  Measures overall sales performance and tracks revenue growth over time.
+  !<img width="229" height="105" alt="Total Revenue" src="https://github.com/user-attachments/assets/fc1593c8-4952-4213-a26d-c4ed686e0685" />
+
+
+---
+
+### ✅ 2. Average Order Value (AOV)
+- **Definition:**  
+  The average amount spent by customers per order.
+- **Formula (SQL):**  
+  `SUM(total_price) / COUNT(DISTINCT order_id)`
+- **Business Impact:**  
+  Indicates customer spending behavior. A higher AOV suggests customers are ordering more or selecting higher-priced items.
+  !<img width="244" height="106" alt="Avg Order Value" src="https://github.com/user-attachments/assets/bf20f303-0070-42f9-89dc-6d9bea1735ad" />
+
+
+
+---
+
+### ✅ 3. Total Pizzas Sold
+- **Definition:**  
+  The total number of pizzas sold across all orders.
+- **Formula (SQL):**  
+  `SUM(quantity)`
+- **Business Impact:**  
+  Helps in understanding overall sales volume and informs inventory and supply planning.
+!<img width="249" height="108" alt="Total Pizza Sold" src="https://github.com/user-attachments/assets/375fd1d5-a796-420f-9c5c-e7d4200202bd" />
+
+---
+
+### ✅ 4. Total Orders
+- **Definition:**  
+  The total number of distinct orders placed.
+- **Formula (SQL):**  
+  `COUNT(DISTINCT order_id)`
+- **Business Impact:**  
+  Tracks customer activity and demand trends, useful for marketing and operational decisions.
+!<img width="252" height="102" alt="Total Order" src="https://github.com/user-attachments/assets/40ade081-8e31-4f6a-a7f2-d8a85eb318e4" />
+
+---
+
+### ✅ 5. Average Pizzas Per Order
+- **Definition:**  
+  The average number of pizzas ordered per customer order.
+- **Formula (SQL):**  
+  `SUM(quantity) / COUNT(DISTINCT order_id)`
+- **Business Impact:**  
+  Helps understand customer ordering patterns and whether they tend to order multiple pizzas per order, influencing promotional strategies.
+!<img width="260" height="113" alt="Avg Pizza per order" src="https://github.com/user-attachments/assets/d05a6d07-fe92-44e1-91d5-117cac68bbc8" />
+
+---
+
 ## 📊 Sample Insights
 
 - Identification of peak order hours and days of the week.  
 - Insights into revenue contribution by product category and size.  
 - Clear visibility into top-performing and low-performing pizza items.
 
+Dashborad:
+!<img width="1128" height="650" alt="Dashborad" src="https://github.com/user-attachments/assets/508f7b6e-fa36-4771-82a8-7c49422280b5" />
+
+
 ---
 
 ## ✅ Conclusion
 
 This project demonstrates the power of SQL in performing robust sales analysis and deriving business insights from large datasets. It helps decision-makers optimize pricing, inventory, and marketing strategies based on real sales data trends.
+
 
