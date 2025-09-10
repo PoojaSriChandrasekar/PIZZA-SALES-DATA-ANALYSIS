@@ -16,29 +16,11 @@ To analyze pizza sales data and generate key performance indicators (KPIs), unco
 - **Trend Analysis:**  
   Analyzed order patterns by day of the week and hour of the day to uncover peak ordering times and customer behavior insights.
 
-  Day of the week Trend
-  !<img width="150" height="150" alt="Daily trends" src="https://github.com/user-attachments/assets/1b89ae5b-7d64-4a7b-acb7-2b430aa10a36" />
-
-  Hours of the day Trend
-  !<img width="100" height="50" alt="Hours trends" src="https://github.com/user-attachments/assets/f2a19b29-7f15-4e7f-bdb9-75a00a3cab88" />
-
 - **Sales Breakdown:**  
   Computed percentage of sales by pizza category and size, providing a clear view of product performance in terms of revenue contribution.
 
-Percentage of sales by pizza category
-!<img width="100" height="50" alt="% by sales in pizza cat" src="https://github.com/user-attachments/assets/b2819a77-7b93-47d3-8df7-a652b831759b" />
-
-Percentage of sales by pizza size
-!<img width="1071" height="808" alt="% of scales ib pizza size" src="https://github.com/user-attachments/assets/7261702e-f0d8-4c8b-b1f7-79fb9a1cb2ee" />
-
-
 - **Product Performance:**  
   Identified top 5 and bottom 5 best-selling pizzas based on quantity sold to help guide inventory and marketing strategies.
-Top 5
-!<img width="1446" height="569" alt="Top 5" src="https://github.com/user-attachments/assets/6fc0ef5c-722a-4fad-990c-885a9b6b8c7d" />
-Bottom 5
-!<img width="1653" height="549" alt="Bottom 5" src="https://github.com/user-attachments/assets/583c7a91-8ff3-4a17-9f30-4c2dbab45117" />
-
 ---
 
 ## 🚀 How It Works
@@ -66,6 +48,8 @@ Bottom 5
   `SUM(total_price)`
 - **Business Impact:**  
   Measures overall sales performance and tracks revenue growth over time.
+
+  
   !<img width="229" height="105" alt="Total Revenue" src="https://github.com/user-attachments/assets/fc1593c8-4952-4213-a26d-c4ed686e0685" />
 
 
@@ -78,6 +62,8 @@ Bottom 5
   `SUM(total_price) / COUNT(DISTINCT order_id)`
 - **Business Impact:**  
   Indicates customer spending behavior. A higher AOV suggests customers are ordering more or selecting higher-priced items.
+
+  
   !<img width="244" height="106" alt="Avg Order Value" src="https://github.com/user-attachments/assets/bf20f303-0070-42f9-89dc-6d9bea1735ad" />
 
 
@@ -91,6 +77,8 @@ Bottom 5
   `SUM(quantity)`
 - **Business Impact:**  
   Helps in understanding overall sales volume and informs inventory and supply planning.
+
+  
 !<img width="249" height="108" alt="Total Pizza Sold" src="https://github.com/user-attachments/assets/375fd1d5-a796-420f-9c5c-e7d4200202bd" />
 
 ---
@@ -102,6 +90,8 @@ Bottom 5
   `COUNT(DISTINCT order_id)`
 - **Business Impact:**  
   Tracks customer activity and demand trends, useful for marketing and operational decisions.
+
+  
 !<img width="252" height="102" alt="Total Order" src="https://github.com/user-attachments/assets/40ade081-8e31-4f6a-a7f2-d8a85eb318e4" />
 
 ---
@@ -113,6 +103,8 @@ Bottom 5
   `SUM(quantity) / COUNT(DISTINCT order_id)`
 - **Business Impact:**  
   Helps understand customer ordering patterns and whether they tend to order multiple pizzas per order, influencing promotional strategies.
+
+  
 !<img width="260" height="113" alt="Avg Pizza per order" src="https://github.com/user-attachments/assets/d05a6d07-fe92-44e1-91d5-117cac68bbc8" />
 
 ---
