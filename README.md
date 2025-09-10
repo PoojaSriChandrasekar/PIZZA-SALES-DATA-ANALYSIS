@@ -17,7 +17,7 @@ To analyze pizza sales data and generate key performance indicators (KPIs), unco
   Analyzed order patterns by day of the week and hour of the day to uncover peak ordering times and customer behavior insights.
 
   Day of the week Trend
-  !<img width="100" height="50" alt="Daily trends" src="https://github.com/user-attachments/assets/1b89ae5b-7d64-4a7b-acb7-2b430aa10a36" />
+  !<img width="150" height="150" alt="Daily trends" src="https://github.com/user-attachments/assets/1b89ae5b-7d64-4a7b-acb7-2b430aa10a36" />
 
   Hours of the day Trend
   !<img width="100" height="50" alt="Hours trends" src="https://github.com/user-attachments/assets/f2a19b29-7f15-4e7f-bdb9-75a00a3cab88" />
