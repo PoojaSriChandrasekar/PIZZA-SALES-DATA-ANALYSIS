@@ -26,7 +26,7 @@ To analyze pizza sales data and generate key performance indicators (KPIs), unco
   Computed percentage of sales by pizza category and size, providing a clear view of product performance in terms of revenue contribution.
 
 Percentage of sales by pizza category
-!<img width="965" height="823" alt="% by sales in pizza cat" src="https://github.com/user-attachments/assets/b2819a77-7b93-47d3-8df7-a652b831759b" />
+!<img width="50" height="25" alt="% by sales in pizza cat" src="https://github.com/user-attachments/assets/b2819a77-7b93-47d3-8df7-a652b831759b" />
 
 Percentage of sales by pizza size
 !<img width="1071" height="808" alt="% of scales ib pizza size" src="https://github.com/user-attachments/assets/7261702e-f0d8-4c8b-b1f7-79fb9a1cb2ee" />
