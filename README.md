@@ -116,7 +116,8 @@ To analyze pizza sales data and generate key performance indicators (KPIs), unco
 - Clear visibility into top-performing and low-performing pizza items.
 
 Dashborad:
-<img width="2065" height="1190" alt="image" src="https://github.com/user-attachments/assets/ce1d730f-b9db-4d71-a867-da9ad0f3836f" />
+<img width="542" height="246" alt="image" src="https://github.com/user-attachments/assets/b4027ead-75cc-4c59-982b-79e0335d63ef" />
+
 
 
 
